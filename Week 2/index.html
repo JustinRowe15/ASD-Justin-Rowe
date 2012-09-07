@@ -39,6 +39,7 @@
 				<div class="browse">
 						<ul data-role="listview" data-filter="true" data-filter-placeholder="Search Projects...">
 							<li data-role="list-divider" data-theme="c">Browse Projects</li>
+							<li><a href="#ajaxDisplay" data-icon="arrow-r" data-iconpos="right">View Remote Data</a></li>
 							<li><a href="#projectName" data-icon="arrow-r" data-iconpos="right">Project Name</a></li>
 							<li><a href="#projectManager" data-icon="arrow-r" data-iconpos="right">Project Manager Last Name</a></li>
 							<li><a href="#startDate" data-icon="arrow-r" data-iconpos="right">Project Start Date</a></li>
@@ -320,9 +321,12 @@
 			
 			<!-- Content -->
 			<div data-role="content" id="projectInfo">
-				<ul data-role="listview" id="items">
+				<form>
+					<ul data-role="listview" id="items">
 					
-				</ul>
+					</ul>
+				<input type="submit" id="deleteProject" value="Delete Project" data-theme="b" />
+				</form>
 			</div>
 			
 			<!-- Footer -->
@@ -337,6 +341,106 @@
 			</div>
 		</div>	
 		
+		
+		<!-- AJAX Button Page -->
+		<div data-role="page" id="ajaxDisplay" style="background-image:url(img/background.png)">
+			<!-- Header -->
+				<header><img src="img/baseline.png" alt="BaseLine" width="320" height="50" /></header>
+			
+			<!-- Content -->
+			<div data-role="content">
+
+				<a href="#remoteJSON" id="pullJSON" data-role="button" data-icon="arrow-r" data-iconpos="right" data-theme="b">Display JSON</a>
+				<a href="#remoteXML" id="pullXML" data-role="button" data-icon="arrow-r" data-iconpos="right" data-theme="b">Display XML</a>
+				<a href="#remoteCSV" id="pullCSV" data-role="button" data-icon="arrow-r" data-iconpos="right" data-theme="b">Display CSV</a>
+
+			</div>
+			
+			<!-- Footer -->
+			<div data-role="footer">
+				<div data-role="navbar" data-position="fixed">
+					<ul>
+						<li><a href="#home" data-icon="home" data-iconpos="right">Home</a></li>
+						<li><a href="#projectDisplay" data-icon="info" data-iconpos="right">Projects</a></li>
+						<li><a href="#aboutPage" data-icon="info" data-iconpos="right">About</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		
+		
+		<!-- JSON Data View Page -->
+		<div data-role="page" id="remoteJSON" style="background-image:url(img/background.png)">
+			<!-- Header -->
+				<header><img src="img/baseline.png" alt="BaseLine" width="320" height="50" /></header>
+			
+			<!-- Content -->
+			<div data-role="content">
+					<div data-role="fieldcontain" id="itemsJSON">
+					
+					</div>
+			</div>
+			
+			<!-- Footer -->
+			<div data-role="footer">
+				<div data-role="navbar" data-position="fixed">
+					<ul>
+						<li><a href="#home" data-icon="home" data-iconpos="right">Home</a></li>
+						<li><a href="#projectDisplay" data-icon="info" data-iconpos="right">Projects</a></li>
+						<li><a href="#aboutPage" data-icon="info" data-iconpos="right">About</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		
+		<!-- XML Data View Page -->
+		<div data-role="page" id="remoteXML" style="background-image:url(img/background.png)">
+			<!-- Header -->
+				<header><img src="img/baseline.png" alt="BaseLine" width="320" height="50" /></header>
+			
+			<!-- Content -->
+			<div data-role="content">
+					<div data-role="fieldcontain" id="itemsXML">
+					
+					</div>
+			</div>
+			
+			<!-- Footer -->
+			<div data-role="footer">
+				<div data-role="navbar" data-position="fixed">
+					<ul>
+						<li><a href="#home" data-icon="home" data-iconpos="right">Home</a></li>
+						<li><a href="#projectDisplay" data-icon="info" data-iconpos="right">Projects</a></li>
+						<li><a href="#aboutPage" data-icon="info" data-iconpos="right">About</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		
+		<!-- CSV Data View Page -->
+		<div data-role="page" id="remoteCSV" style="background-image:url(img/background.png)">
+			<!-- Header -->
+				<header><img src="img/baseline.png" alt="BaseLine" width="320" height="50" /></header>
+			
+			<!-- Content -->
+			<div data-role="content">
+					<div data-role="fieldcontain" id="itemsCSV">
+					
+					</div>
+			</div>
+			
+			<!-- Footer -->
+			<div data-role="footer">
+				<div data-role="navbar" data-position="fixed">
+					<ul>
+						<li><a href="#home" data-icon="home" data-iconpos="right">Home</a></li>
+						<li><a href="#projectDisplay" data-icon="info" data-iconpos="right">Projects</a></li>
+						<li><a href="#aboutPage" data-icon="info" data-iconpos="right">About</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
 		
 		
 		

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projects>
+	<project>
+		<Pname>Project Name: TBI Tracker</Pname>
+		<Pmfname>First Name: Justin</Pmfname>
+		<Pmlname>Last Name: Rowe</Pmlname>
+		<Sdate>Project Start Date: 2012-01-01</Sdate>
+		<Fdate>Project Finish Date: 2012-10-01</Fdate>,
+		<ContractStart>Contract Start Date: 2012-02-01</ContractStart>
+		<ContractAward>Contract Award Date: 2012-03-15</ContractAward>
+		<ProductionStart>Vendor Production Start Date: 2012-03-16</ProductionStart>
+		<ProductionFinish>Vendor Production Finish Date: 2012-07-01</ProductionFinish>
+		<TestStart>Testing Start Date: 2012-07-15</TestStart>
+		<TestFinish>Testing Finish Date: 2012-09-15</TestFinish>
+		<Delivery>Delivery Date: 2012-09-30</Delivery>
+		<NoContracting>Contracting N/A: No</NoContracting>
+		<Notesting>Testing N/A: No</Notesting>
+		<NoTraining>Training N/A: No</NoTraining>
+		<Group>Product Type: Commercial Off The Shelf</Group>
+		<Notes>Notes: This is the first Project for this year.</Notes>
+	</project>
+	<project>
+		<Pname>Project Name: Sport Project</Pname>
+		<Pmfname>First Name: Steve</Pmfname>
+		<Pmlname>Last Name: Hill</Pmlname>
+		<Sdate>Project Start Date: 2012-02-01</Sdate>
+		<Fdate>Project Finish Date: 2012-11-01</Fdate>
+		<ContractStart>Contract Start Date: 2012-03-01</ContractStart>
+		<ContractAward>Contract Award Date: 2012-04-15</ContractAward>
+		<ProductionStart>Vendor Production Start Date: 2012-04-16</ProductionStart>
+		<ProductionFinish>Vendor Production Finish Date: 2012-08-01</ProductionFinish>
+		<TestStart>Testing Start Date: 2012-08-15</TestStart>
+		<TestFinish>Testing Finish Date: 2012-10-15</TestFinish>
+		<Delivery>Delivery Date: 2012-10-30</Delivery>
+		<NoContracting>Contracting N/A: No</NoContracting>
+		<Notesting>Testing N/A: No</Notesting>
+		<NoTraining>Training N/A: No</NoTraining>
+		<Group>Product Type: Commercial Off The Shelf</Group>
+		<Notes>Notes: This is the second Project for this year.</Notes>	
+	</project>
+	<project>
+		<Pname>Project Name: Robot Project</Pname>
+		<Pmfname>First Name: Wesley</Pmfname>
+		<Pmlname>Last Name: Brin</Pmlname>
+		<Sdate>Project Start Date: 2012-03-01</Sdate>
+		<Fdate>Project Finish Date: 2012-12-01</Fdate>
+		<ContractStart>Contract Start Date: 2012-04-01</ContractStart>
+		<ContractAward>Contract Award Date: 2012-05-15</ContractAward>
+		<ProductionStart>Vendor Production Start Date: 2012-05-16</ProductionStart>
+		<ProductionFinish>Vendor Production Finish Date: 2012-09-01</ProductionFinish>
+		<TestStart>Testing Start Date: 2012-09-15</TestStart>
+		<TestFinish>Testing Finish Date: 2012-11-15</TestFinish>
+		<Delivery>Delivery Date: 2012-11-30</Delivery>
+		<NoContracting>Contracting N/A: No</NoContracting>
+		<Notesting>Testing N/A: No</Notesting>
+		<NoTraining>Training N/A: No</NoTraining>
+		<Group>Product Type: Research and Development</Group>
+		<Notes>Notes: This is the final Project for this year.</Notes>
+	</project>
+	<project>
+		<Pname>Project Name: Recon Ballon</Pname>
+		<Pmfname>First Name: Peter</Pmfname>
+		<Pmlname>Last Name: Moore</Pmlname>
+		<Sdate>Project Start Date: 2012-05-15</Sdate>
+		<Fdate>Project Finish Date: 2013-01-15</Fdate>
+		<ContractStart>Contract Start Date: 2012-07-01</ContractStart>
+		<ContractAward>Contract Award Date: 2012-07-15</ContractAward>
+		<ProductionStart>Vendor Production Start Date: 2012-07-16</ProductionStart>
+		<ProductionFinish>Vendor Production Finish Date: 2012-09-01</ProductionFinish>
+		<TestStart>Testing Start Date: 2012-11-15</TestStart>
+		<TestFinish>Testing Finish Date: 2012-12-15</TestFinish>
+		<Delivery>Delivery Date: 2012-12-30</Delivery>
+		<NoContracting>Contracting N/A: Yes</NoContracting>
+		<Notesting>Testing N/A: No</Notesting>
+		<NoTraining>Training N/A: No</NoTraining>
+		<Group>Product Type: Modified Commercial Off The Shelf</Group>
+		<Notes>Notes: This Project will cost $2.5 million.</Notes>
+	</project>
+	<project>
+		<Pname>Project Name: Mine Detector</Pname>
+		<Pmfname>First Name: Rob</Pmfname>
+		<Pmlname>Last Name: Thomas</Pmlname>
+		<Sdate>Project Start Date: 2011-07-01</Sdate>
+		<Fdate>Project Finish Date: 2012-03-01</Fdate>
+		<ContractStart>Contract Start Date: 2011-08-01</ContractStart>
+		<ContractAward>Contract Award Date: 2011-09-15<ContractAward>
+		<ProductionStart>Vendor Production Start Date: 2011-09-16</ProductionStart>
+		<ProductionFinish>Vendor Production Finish Date: 2011-11-01</ProductionFinish>
+		<TestStart>Testing Start Date: 2011-11-15</TestStart>
+		<TestFinish>Testing Finish Date: 2012-01-15</TestFinish>
+		<Delivery>Delivery Date: 2012-02-30</Delivery>
+		<NoContracting>Contracting N/A: No</NoContracting>
+		<Notesting>Testing N/A: No</Notesting>
+		<NoTraining>Training N/A: Yes</NoTraining>
+		<Group>Product Type: Commercial Off The Shelf</Group>
+		<Notes>Notes: This Project will use a contract through DLA.</Notes>	
+	</project>
+</projects>
