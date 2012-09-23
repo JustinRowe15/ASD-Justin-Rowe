@@ -1,0 +1,10 @@
+{
+  "env": {
+    "local": {
+      "db": "http://127.0.0.1:5984/baseline"
+    },
+    "cloudant": {
+      "db": "https://jeargoventionerettleande:24ES2TCPGEedHQyH0fXvI5jl@justinrowe15.cloudant.com/baseline"
+    }
+  }
+}

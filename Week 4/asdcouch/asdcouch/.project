@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>asdcouch</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+	</buildSpec>
+	<natures>
+		<nature>com.pittypanda.plugins.couch.nature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>app/_attachments/jquery.couch.js</name>
+			<type>1</type>
+			<locationURI>PARENT-4-PROJECT_LOC/Downloads/daleharvey-jquery.couch.js-a27a9db/jquery.couch.js</locationURI>
+		</link>
+	</linkedResources>
+</projectDescription>
